@@ -1,0 +1,25 @@
+{
+  "name": "dailyitems",
+  "displayName": "dailyitems",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "dailyitems",
+      "aliases": ["dailyitems", "dailyitems"],
+      "extensions": [".dailyitems"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "dailyitems",
+      "scopeName": "source.dailyitems",
+      "path": "./syntaxes/dailyitems.tmLanguage.json"
+    }]
+  }
+}
